@@ -52,7 +52,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.player', {
+    url: '/player',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/player.html'
 
+      }
+    }
+  })
   .state('app.browse', {
       url: '/browse',
       views: {

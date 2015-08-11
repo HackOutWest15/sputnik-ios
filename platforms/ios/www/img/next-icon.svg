@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="31px" viewBox="0 0 30 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 53 + Rectangle 48</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Rectangle-53-+-Rectangle-48" sketch:type="MSLayerGroup" transform="translate(-16.000000, -8.000000)" fill="#FFFFFF">
+            <rect id="Rectangle-53" sketch:type="MSShapeGroup" x="42" y="16" width="4" height="15" rx="1"></rect>
+            <path d="M10.8026147,15.1773633 C8.68540195,15.7909072 8.24146654,17.5606874 9.79053593,19.1097568 L28.128844,37.448065 C29.6871011,39.006322 31.4312983,38.5537724 32.0283179,36.4240668 L39.3097884,10.4493927 C39.9051512,8.32559704 38.6614238,7.104201 36.5542353,7.71483998 L10.8026147,15.1773633 Z" id="Rectangle-48" sketch:type="MSShapeGroup" transform="translate(23.678425, 23.436730) rotate(-315.000000) translate(-23.678425, -23.436730) "></path>
+        </g>
+    </g>
+</svg>
