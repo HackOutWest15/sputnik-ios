@@ -1,0 +1,120 @@
+2015-08-11 12:39:36.330 sputnik[58269:10411202] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/83B66401-209F-4237-9DEA-A8BD205D8B17/Library/Cookies/Cookies.binarycookies
+2015-08-11 12:39:36.582 sputnik[58269:10411202] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 12:39:36.582 sputnik[58269:10411202] Multi-tasking -> Device: YES, App: YES
+2015-08-11 12:39:36.597 sputnik[58269:10411202] Unlimited access to network resources
+2015-08-11 12:39:37.338 sputnik[58269:10411202] [CDVTimer][keyboard] 0.110030ms
+2015-08-11 12:39:37.523 sputnik[58269:10411202] [CDVTimer][splashscreen] 184.764028ms
+2015-08-11 12:39:37.523 sputnik[58269:10411202] [CDVTimer][TotalPluginStartup] 185.555041ms
+2015-08-11 12:39:37.906 sputnik[58269:10411202] Resetting plugins due to page load.
+2015-08-11 12:39:38.451 sputnik[58269:10411202] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/AB88D289-0B19-4FBC-941F-D278BCD06783/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:07:06.948 sputnik[59340:10431578] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/41E98121-7DDB-4A5E-B62B-3D298706AB67/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:07:07.073 sputnik[59340:10431578] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:07:07.074 sputnik[59340:10431578] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:07:07.076 sputnik[59340:10431578] Unlimited access to network resources
+2015-08-11 13:07:07.180 sputnik[59340:10431578] [CDVTimer][keyboard] 0.066996ms
+2015-08-11 13:07:07.234 sputnik[59340:10431578] [CDVTimer][splashscreen] 54.693997ms
+2015-08-11 13:07:07.235 sputnik[59340:10431578] [CDVTimer][TotalPluginStartup] 55.088997ms
+2015-08-11 13:07:07.373 sputnik[59340:10431578] Resetting plugins due to page load.
+2015-08-11 13:07:07.575 sputnik[59340:10431578] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/8E3E9861-6037-4442-8FC8-8DCF737A297E/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:07:21.821 sputnik[59514:10432340] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/25EC538E-036B-4554-8CDA-524F845E8491/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:07:21.897 sputnik[59514:10432340] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:07:21.897 sputnik[59514:10432340] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:07:21.899 sputnik[59514:10432340] Unlimited access to network resources
+2015-08-11 13:07:21.990 sputnik[59514:10432340] [CDVTimer][keyboard] 0.064969ms
+2015-08-11 13:07:22.019 sputnik[59514:10432340] [CDVTimer][splashscreen] 28.950989ms
+2015-08-11 13:07:22.019 sputnik[59514:10432340] [CDVTimer][TotalPluginStartup] 29.341042ms
+2015-08-11 13:07:22.107 sputnik[59514:10432340] Resetting plugins due to page load.
+2015-08-11 13:07:22.323 sputnik[59514:10432340] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/699A87F1-3832-4056-8FF8-756C8E2722DA/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:20:33.332 sputnik[60152:10442341] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/04138354-F06A-47EC-8931-3CFC3D50A79A/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:20:33.402 sputnik[60152:10442341] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:20:33.403 sputnik[60152:10442341] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:20:33.405 sputnik[60152:10442341] Unlimited access to network resources
+2015-08-11 13:20:33.486 sputnik[60152:10442341] [CDVTimer][keyboard] 0.063002ms
+2015-08-11 13:20:33.515 sputnik[60152:10442341] [CDVTimer][splashscreen] 28.991997ms
+2015-08-11 13:20:33.515 sputnik[60152:10442341] [CDVTimer][TotalPluginStartup] 29.390037ms
+2015-08-11 13:20:33.602 sputnik[60152:10442341] Resetting plugins due to page load.
+2015-08-11 13:20:33.757 sputnik[60152:10442341] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/C1D13BE7-6F44-4F5B-80E8-7C4CDCC1BB77/sputnik.app/www/index.html
+2015-08-11 13:21:30.160 sputnik[60491:10443869] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/5F25BE15-F2A1-48A0-9BFD-914F1BCB1792/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:21:30.238 sputnik[60491:10443869] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:21:30.238 sputnik[60491:10443869] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:21:30.240 sputnik[60491:10443869] Unlimited access to network resources
+2015-08-11 13:21:30.312 sputnik[60491:10443869] [CDVTimer][keyboard] 0.064969ms
+2015-08-11 13:21:30.334 sputnik[60491:10443869] [CDVTimer][splashscreen] 21.987021ms
+2015-08-11 13:21:30.334 sputnik[60491:10443869] [CDVTimer][TotalPluginStartup] 22.430956ms
+2015-08-11 13:21:30.410 sputnik[60491:10443869] Resetting plugins due to page load.
+2015-08-11 13:21:30.526 sputnik[60491:10443869] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/783195CC-B727-4326-8CB7-696E24908F69/sputnik.app/www/index.html
+2015-08-11 13:28:02.742 sputnik[61227:10451185] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/5E2E0101-DBD9-40E1-B19A-EE7256CAE7B3/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:28:02.814 sputnik[61227:10451185] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:28:02.815 sputnik[61227:10451185] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:28:02.817 sputnik[61227:10451185] Unlimited access to network resources
+2015-08-11 13:28:02.907 sputnik[61227:10451185] [CDVTimer][keyboard] 0.063956ms
+2015-08-11 13:28:02.931 sputnik[61227:10451185] [CDVTimer][splashscreen] 23.962975ms
+2015-08-11 13:28:02.931 sputnik[61227:10451185] [CDVTimer][TotalPluginStartup] 24.370015ms
+2015-08-11 13:28:03.030 sputnik[61227:10451185] Resetting plugins due to page load.
+2015-08-11 13:28:03.214 sputnik[61227:10451185] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/B4D6346F-7B84-4C04-8664-FA059D6F306E/sputnik.app/www/index.html
+2015-08-11 13:43:03.875 sputnik[61941:10463751] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/C6D37FF2-DB7E-4E0D-97E9-E000318C7AF4/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:43:03.941 sputnik[61941:10463751] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:43:03.941 sputnik[61941:10463751] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:43:03.943 sputnik[61941:10463751] Unlimited access to network resources
+2015-08-11 13:43:04.015 sputnik[61941:10463751] [CDVTimer][keyboard] 0.060022ms
+2015-08-11 13:43:04.043 sputnik[61941:10463751] [CDVTimer][splashscreen] 28.333962ms
+2015-08-11 13:43:04.043 sputnik[61941:10463751] [CDVTimer][TotalPluginStartup] 28.715014ms
+2015-08-11 13:43:04.140 sputnik[61941:10463751] Resetting plugins due to page load.
+2015-08-11 13:43:04.282 sputnik[61941:10463751] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/EB4CAAF9-C5D0-4DCB-A808-44FA4792A1DA/sputnik.app/www/index.html
+2015-08-11 13:43:55.912 sputnik[62288:10465302] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/3E6B6E42-AA47-4CD7-856E-FDBD55F2A017/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:43:55.974 sputnik[62288:10465302] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:43:55.974 sputnik[62288:10465302] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:43:55.976 sputnik[62288:10465302] Unlimited access to network resources
+2015-08-11 13:43:56.053 sputnik[62288:10465302] [CDVTimer][keyboard] 0.087976ms
+2015-08-11 13:43:56.076 sputnik[62288:10465302] [CDVTimer][splashscreen] 22.900999ms
+2015-08-11 13:43:56.076 sputnik[62288:10465302] [CDVTimer][TotalPluginStartup] 23.454010ms
+2015-08-11 13:43:56.169 sputnik[62288:10465302] Resetting plugins due to page load.
+2015-08-11 13:43:56.354 sputnik[62288:10465302] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/9207BB4A-15D4-4292-A3AC-5ABD9A59EEF5/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:45:36.789 sputnik[62650:10467408] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/60324DD1-E359-4CB5-915B-9155A759880E/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:45:36.855 sputnik[62650:10467408] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:45:36.855 sputnik[62650:10467408] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:45:36.857 sputnik[62650:10467408] Unlimited access to network resources
+2015-08-11 13:45:36.928 sputnik[62650:10467408] [CDVTimer][keyboard] 0.061989ms
+2015-08-11 13:45:36.965 sputnik[62650:10467408] [CDVTimer][splashscreen] 36.152005ms
+2015-08-11 13:45:36.965 sputnik[62650:10467408] [CDVTimer][TotalPluginStartup] 36.534965ms
+2015-08-11 13:45:37.065 sputnik[62650:10467408] Resetting plugins due to page load.
+2015-08-11 13:45:37.305 sputnik[62650:10467408] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/8F845F5F-FB46-4B3F-BF28-16DCFB293A21/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:46:53.129 sputnik[62992:10469095] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/6DF011E8-9BFD-4132-8CD4-1CA7B4FC35FD/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:46:53.189 sputnik[62992:10469095] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:46:53.190 sputnik[62992:10469095] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:46:53.192 sputnik[62992:10469095] Unlimited access to network resources
+2015-08-11 13:46:53.270 sputnik[62992:10469095] [CDVTimer][keyboard] 0.063002ms
+2015-08-11 13:46:53.303 sputnik[62992:10469095] [CDVTimer][splashscreen] 33.634007ms
+2015-08-11 13:46:53.304 sputnik[62992:10469095] [CDVTimer][TotalPluginStartup] 34.035981ms
+2015-08-11 13:46:53.386 sputnik[62992:10469095] Resetting plugins due to page load.
+2015-08-11 13:46:53.582 sputnik[62992:10469095] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/2BAA9979-F88E-4C68-88D5-0E28DD9327E6/sputnik.app/www/index.html#/app/playlists
+2015-08-11 13:48:33.389 sputnik[63349:10471150] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/08C36605-D35E-4B0D-8C81-B4B3D7A31A72/Library/Cookies/Cookies.binarycookies
+2015-08-11 13:48:33.464 sputnik[63349:10471150] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 13:48:33.464 sputnik[63349:10471150] Multi-tasking -> Device: YES, App: YES
+2015-08-11 13:48:33.466 sputnik[63349:10471150] Unlimited access to network resources
+2015-08-11 13:48:33.536 sputnik[63349:10471150] [CDVTimer][keyboard] 0.056028ms
+2015-08-11 13:48:33.560 sputnik[63349:10471150] [CDVTimer][splashscreen] 24.408996ms
+2015-08-11 13:48:33.561 sputnik[63349:10471150] [CDVTimer][TotalPluginStartup] 24.793983ms
+2015-08-11 13:48:33.635 sputnik[63349:10471150] Resetting plugins due to page load.
+2015-08-11 13:48:33.792 sputnik[63349:10471150] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/04391103-3690-4CA0-A6EE-48AD35F4C888/sputnik.app/www/index.html#/app/playlists
+2015-08-11 15:02:41.610 sputnik[65339:10524794] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Data/Application/3E55CE41-D6AB-4720-856F-0C48BA3F8C4E/Library/Cookies/Cookies.binarycookies
+2015-08-11 15:02:41.888 sputnik[65339:10524794] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 15:02:41.888 sputnik[65339:10524794] Multi-tasking -> Device: YES, App: YES
+2015-08-11 15:02:41.904 sputnik[65339:10524794] Unlimited access to network resources
+2015-08-11 15:02:42.206 sputnik[65339:10524794] [CDVTimer][keyboard] 0.057995ms
+2015-08-11 15:02:42.260 sputnik[65339:10524794] [CDVTimer][splashscreen] 54.039001ms
+2015-08-11 15:02:42.260 sputnik[65339:10524794] [CDVTimer][TotalPluginStartup] 54.407001ms
+2015-08-11 15:02:42.430 sputnik[65339:10524794] Resetting plugins due to page load.
+2015-08-11 15:02:42.760 sputnik[65339:10524794] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/033BA8D9-78F8-4BD2-8645-66F8300F274D/data/Containers/Bundle/Application/B4A6D4DF-52CC-4923-802E-A968DE11F003/sputnik.app/www/index.html#/app/playlists
+2015-08-11 15:35:26.995 sputnik[65339:10545620] Terminating since there is no system app.
+2015-08-11 17:09:57.538 sputnik[68586:10595753] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/06EB9E57-498D-446A-A00F-728A4BFBF88F/data/Containers/Data/Application/20C63A2B-98F5-449F-ACC8-D398C1792711/Library/Cookies/Cookies.binarycookies
+2015-08-11 17:09:57.826 sputnik[68586:10595753] Apache Cordova native platform version 3.8.0 is starting.
+2015-08-11 17:09:57.827 sputnik[68586:10595753] Multi-tasking -> Device: YES, App: YES
+2015-08-11 17:09:57.842 sputnik[68586:10595753] Unlimited access to network resources
+2015-08-11 17:09:58.165 sputnik[68586:10595753] [CDVTimer][keyboard] 0.061989ms
+2015-08-11 17:09:58.338 sputnik[68586:10595753] [CDVTimer][splashscreen] 173.492968ms
+2015-08-11 17:09:58.338 sputnik[68586:10595753] [CDVTimer][TotalPluginStartup] 174.201012ms
+2015-08-11 17:09:58.751 sputnik[68586:10595753] Resetting plugins due to page load.
+2015-08-11 17:09:59.221 sputnik[68586:10595753] Finished load of: file:///Users/Axel/Library/Developer/CoreSimulator/Devices/06EB9E57-498D-446A-A00F-728A4BFBF88F/data/Containers/Bundle/Application/2FB01205-DC75-4209-9BCE-BCBB686916F3/sputnik.app/www/index.html#/app/playlists
+2015-08-11 17:10:06.472 sputnik[68586:10595753] Resetting plugins due to page load.
+2015-08-11 17:10:07.364 sputnik[68586:10595753] Finished load of: http://codyhouse.co/
