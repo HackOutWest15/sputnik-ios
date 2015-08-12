@@ -30,12 +30,24 @@
 @property (weak, nonatomic) IBOutlet UIImageView *coverViewBL;
 @property (weak, nonatomic) IBOutlet UIImageView *coverViewBR;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property int secondsLeft;
 
 @property (nonatomic, strong) SPTAudioStreamingController *player;
 
 @end
 
 @implementation ViewController
+
+- (void)runScheduledTask: (NSTimer *) runningTimer {
+    self.secondsLeft--;
+    self.timerLabel.text =[NSString stringWithFormat:@"%01d", self.secondsLeft];
+    if (self.secondsLeft<=0) {
+        NSLog(@"wtf");
+        [self fastForward:(nil)];
+        self.secondsLeft = 9;
+    }
+}
 
 -(void)viewDidLoad {
     [super viewDidLoad];
@@ -67,7 +79,11 @@
     self.coverViewBL.userInteractionEnabled = YES;
     [self.coverViewBL addGestureRecognizer:tapRecognizer4];
     
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(runScheduledTask:) userInfo:nil repeats:YES];
+    
 }
+
+
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
