@@ -115,7 +115,12 @@
     }
     if(calledBy == self.realOne){
         NSLog(@"CORRECT");
+        [self flashScreenPressed: [UIColor greenColor]];
+    } else {
+        [self flashScreenPressed: [UIColor redColor]];
     }
+
+    
     self.secondsLeft = 9;
     [self.player skipNext:nil];
 }
@@ -161,6 +166,33 @@
     return self.coverViewTR;
 }
 
+- (IBAction)flashScreenPressed: (UIColor *) color
+{
+
+    UIView *flashView = [[UIView alloc]
+                     initWithFrame:CGRectMake(0,
+                                              0,
+                                              self.view.frame.size.width,
+                                              self.view.frame.size.height)];
+        flashView.backgroundColor = color;
+        [self.view addSubview:flashView];
+    
+    
+    [flashView setAlpha:1.0f];
+    
+    
+    //flash animation code
+    [UIView beginAnimations:@"flash screen" context:nil];
+    [UIView setAnimationDuration:0.3f];
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+    
+    [flashView setAlpha:0.0f];
+    
+    [UIView commitAnimations];
+    
+    //flashLabel.text = @"Flashed";
+}
+
 - (void)setImage: (NSURL *) imageURL withCoverPic:(UIImageView *) coverPic {
     //dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSError *error = nil;
@@ -184,7 +216,6 @@
         
     //});
 }
-
 
 -(void)updateUI {
     SPTAuth *auth = [SPTAuth defaultInstance];
