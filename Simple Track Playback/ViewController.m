@@ -30,12 +30,23 @@
 @property (weak, nonatomic) IBOutlet UIImageView *coverViewBL;
 @property (weak, nonatomic) IBOutlet UIImageView *coverViewBR;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *spinner;
+@property (weak, nonatomic) IBOutlet UILabel *timerLabel;
+@property int secondsLeft;
 
 @property (nonatomic, strong) SPTAudioStreamingController *player;
 
 @end
 
 @implementation ViewController
+
+- (void)runScheduledTask: (NSTimer *) runningTimer {
+    self.secondsLeft--;
+    self.timerLabel.text =[NSString stringWithFormat:@"%01d", self.secondsLeft];
+    if (self.secondsLeft<=0) {
+        NSLog(@"wtf");
+        [self fastForward:(nil)];
+    }
+}
 
 -(void)viewDidLoad {
     [super viewDidLoad];
@@ -67,7 +78,11 @@
     self.coverViewBL.userInteractionEnabled = YES;
     [self.coverViewBL addGestureRecognizer:tapRecognizer4];
     
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(runScheduledTask:) userInfo:nil repeats:YES];
+    
 }
+
+
 
 - (BOOL)prefersStatusBarHidden {
     return YES;
@@ -101,6 +116,7 @@
     if(calledBy == self.realOne){
         NSLog(@"CORRECT");
     }
+    self.secondsLeft = 9;
     [self.player skipNext:nil];
 }
 
@@ -194,13 +210,19 @@
                           //NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
                           //NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
                           
-                          NSUInteger randomIndex1 = arc4random() % [object.firstTrackPage.items count];
+                          int numberOfItems = [object.firstTrackPage.items count];
                           
-                          NSUInteger randomIndex2 = arc4random() % [object.firstTrackPage.items count];
+                          if (numberOfItems == 0){
+                              numberOfItems = 1;
+                          }
                           
-                          NSUInteger randomIndex3 = arc4random() % [object.firstTrackPage.items count];
+                          NSUInteger randomIndex1 = arc4random() % numberOfItems;
                           
-                          NSUInteger randomIndex4 = arc4random() % [object.firstTrackPage.items count];
+                          NSUInteger randomIndex2 = arc4random() % numberOfItems;
+                          
+                          NSUInteger randomIndex3 = arc4random() % numberOfItems;
+                          
+                          NSUInteger randomIndex4 = arc4random() % numberOfItems;
                           
                           self.realOne = arc4random_uniform(3);
                           
