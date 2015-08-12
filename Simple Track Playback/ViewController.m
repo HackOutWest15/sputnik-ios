@@ -44,7 +44,6 @@
     self.timerLabel.text =[NSString stringWithFormat:@"%01d", self.secondsLeft];
     if (self.secondsLeft<=0) {
         NSLog(@"wtf");
-        self.secondsLeft = 9;
         [self fastForward:(nil)];
     }
 }
@@ -120,6 +119,7 @@
     } else {
         [self flashScreenPressed: [UIColor redColor]];
     }
+    self.secondsLeft = 9;
 
     
     [self.player skipNext:nil];
