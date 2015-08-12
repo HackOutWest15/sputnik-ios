@@ -5,6 +5,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Lato-Light.ttf">
+            <string>Lato-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Title-->
         <scene sceneID="XOS-8E-DK9">
@@ -105,7 +110,7 @@
                                         <rect key="frame" x="176" y="218" width="140" height="140"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Dv9-u5-aKh" secondAttribute="bottom" id="12d-pH-WWs"/>
                                     <constraint firstItem="9f5-hL-PF7" firstAttribute="height" secondItem="Dv9-u5-aKh" secondAttribute="height" id="7TK-ud-ggH"/>
@@ -132,18 +137,20 @@
                                     <constraint firstItem="9f5-hL-PF7" firstAttribute="height" secondItem="Dv9-u5-aKh" secondAttribute="height" id="xrr-as-Kc6"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fucking timer" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPG-Oj-Jry">
-                                <rect key="frame" x="137" y="50" width="100" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="9" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPG-Oj-Jry">
+                                <rect key="frame" x="121" y="71" width="133" height="200"/>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="106"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ynS-Vw-PQf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="E8y-CM-0Pg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ynS-Vw-PQf" secondAttribute="trailing" constant="-16" id="Fwh-cX-X16"/>
                             <constraint firstAttribute="width" secondItem="ynS-Vw-PQf" secondAttribute="width" id="NFX-bx-SPk"/>
+                            <constraint firstAttribute="centerX" secondItem="EPG-Oj-Jry" secondAttribute="centerX" id="SBY-Uo-hXk"/>
+                            <constraint firstItem="EPG-Oj-Jry" firstAttribute="top" secondItem="TOh-z3-Jgn" secondAttribute="bottom" constant="60" id="gtq-6v-y2L"/>
                             <constraint firstItem="RgM-Qj-lGo" firstAttribute="top" secondItem="ynS-Vw-PQf" secondAttribute="bottom" id="x31-ac-7go"/>
                         </constraints>
                     </view>
