@@ -17,7 +17,7 @@
                BlueprintIdentifier = "37E2C9CC18B4DF7D00D5D823"
                BuildableName = "Simple Track Playback.app"
                BlueprintName = "Simple Track Playback"
-               ReferencedContainer = "container:Simple Track Playback.xcodeproj">
+               ReferencedContainer = "container:Bach.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "37E2C9CC18B4DF7D00D5D823"
             BuildableName = "Simple Track Playback.app"
             BlueprintName = "Simple Track Playback"
-            ReferencedContainer = "container:Simple Track Playback.xcodeproj">
+            ReferencedContainer = "container:Bach.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "37E2C9CC18B4DF7D00D5D823"
             BuildableName = "Simple Track Playback.app"
             BlueprintName = "Simple Track Playback"
-            ReferencedContainer = "container:Simple Track Playback.xcodeproj">
+            ReferencedContainer = "container:Bach.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "37E2C9CC18B4DF7D00D5D823"
             BuildableName = "Simple Track Playback.app"
             BlueprintName = "Simple Track Playback"
-            ReferencedContainer = "container:Simple Track Playback.xcodeproj">
+            ReferencedContainer = "container:Bach.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		378297E418BCDF4000EFF728 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		378297E618BCDF4700EFF728 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		37E2C9CD18B4DF7D00D5D823 /* Simple Track Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Track Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2C9CD18B4DF7D00D5D823 /* Bach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E2C9D018B4DF7D00D5D823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37E2C9D218B4DF7D00D5D823 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		37E2C9D418B4DF7D00D5D823 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -88,7 +88,7 @@
 		37E2C9CE18B4DF7D00D5D823 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37E2C9CD18B4DF7D00D5D823 /* Simple Track Playback.app */,
+				37E2C9CD18B4DF7D00D5D823 /* Bach.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			);
 			name = "Simple Track Playback";
 			productName = "Empty iOS SDK Project";
-			productReference = 37E2C9CD18B4DF7D00D5D823 /* Simple Track Playback.app */;
+			productReference = 37E2C9CD18B4DF7D00D5D823 /* Bach.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,8 +168,17 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Your Company";
+				TargetAttributes = {
+					37E2C9CC18B4DF7D00D5D823 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
-			buildConfigurationList = 37E2C9C818B4DF7D00D5D823 /* Build configuration list for PBXProject "Simple Track Playback" */;
+			buildConfigurationList = 37E2C9C818B4DF7D00D5D823 /* Build configuration list for PBXProject "Bach" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -327,7 +336,7 @@
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Simple Track Playback";
+				PRODUCT_NAME = Bach;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -349,7 +358,7 @@
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "Simple Track Playback";
+				PRODUCT_NAME = Bach;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -359,7 +368,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37E2C9C818B4DF7D00D5D823 /* Build configuration list for PBXProject "Simple Track Playback" */ = {
+		37E2C9C818B4DF7D00D5D823 /* Build configuration list for PBXProject "Bach" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37E2CA0018B4DF7D00D5D823 /* Debug */,
