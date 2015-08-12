@@ -44,6 +44,29 @@
     self.artistLabel.text = @"";
     self.coverViewTR.contentMode = UIViewContentModeScaleAspectFit;
     self.coverViewTL.contentMode = UIViewContentModeScaleAspectFit;
+    self.coverViewBL.contentMode = UIViewContentModeScaleAspectFit;
+    self.coverViewBR.contentMode = UIViewContentModeScaleAspectFit;
+    
+    UITapGestureRecognizer *tapRecognizer1 = [[UITapGestureRecognizer alloc]
+                                             initWithTarget:self action:@selector(fastForward:)];
+    self.coverViewTR.userInteractionEnabled = YES;
+    [self.coverViewTR addGestureRecognizer:tapRecognizer1];
+    
+    UITapGestureRecognizer *tapRecognizer2 = [[UITapGestureRecognizer alloc]
+                                              initWithTarget:self action:@selector(fastForward:)];
+    self.coverViewTL.userInteractionEnabled = YES;
+    [self.coverViewTL addGestureRecognizer:tapRecognizer2];
+    
+    UITapGestureRecognizer *tapRecognizer3 = [[UITapGestureRecognizer alloc]
+                                              initWithTarget:self action:@selector(fastForward:)];
+    self.coverViewBR.userInteractionEnabled = YES;
+    [self.coverViewBR addGestureRecognizer:tapRecognizer3];
+    
+    UITapGestureRecognizer *tapRecognizer4 = [[UITapGestureRecognizer alloc]
+                                              initWithTarget:self action:@selector(fastForward:)];
+    self.coverViewBL.userInteractionEnabled = YES;
+    [self.coverViewBL addGestureRecognizer:tapRecognizer4];
+    
 }
 
 - (BOOL)prefersStatusBarHidden {
@@ -60,7 +83,24 @@
     [self.player setIsPlaying:!self.player.isPlaying callback:nil];
 }
 
--(IBAction)fastForward:(id)sender {
+-(IBAction)fastForward:(UITapGestureRecognizer *) sender {
+    NSUInteger calledBy = 0;
+    
+    if(sender.view == self.coverViewTL){
+        calledBy = 0;
+    }
+    if(sender.view == self.coverViewTR){
+        calledBy = 1;
+    }
+    if(sender.view == self.coverViewBR){
+        calledBy = 2;
+    }
+    if(sender.view == self.coverViewBL){
+        calledBy = 3;
+    }
+    if(calledBy == self.realOne){
+        NSLog(@"CORRECT");
+    }
     [self.player skipNext:nil];
 }
 
@@ -151,8 +191,8 @@
                       self.artistLabel.text = artist.name;
 
                       [SPTPlaylistSnapshot requestStarredListForUserWithSession:auth.session callback:^(NSError *error, SPTPlaylistSnapshot *object) {
-                          NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
-                          NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
+                          //NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
+                          //NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
                           
                           NSUInteger randomIndex1 = arc4random() % [object.firstTrackPage.items count];
                           
@@ -252,8 +292,8 @@
         [self updateUI];
         
     [SPTPlaylistSnapshot requestStarredListForUserWithSession:auth.session callback:^(NSError *error, SPTPlaylistSnapshot *object) {
-            NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
-            NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
+            //NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
+            //NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
         
         NSUInteger randomIndex0 = arc4random() % [object.firstTrackPage.items count];
         

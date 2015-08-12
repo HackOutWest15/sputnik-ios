@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		377A23B918BDFE2300EC584A /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377A23B818BDFE2300EC584A /* Spotify.framework */; };
 		378297E518BCDF4000EFF728 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378297E418BCDF4000EFF728 /* Security.framework */; };
 		378297E718BCDF4700EFF728 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 378297E618BCDF4700EFF728 /* AVFoundation.framework */; };
 		37E2C9D118B4DF7D00D5D823 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2C9D018B4DF7D00D5D823 /* Foundation.framework */; };
@@ -19,6 +18,7 @@
 		37E2C9E418B4DF7D00D5D823 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2C9E218B4DF7D00D5D823 /* Main_iPhone.storyboard */; };
 		37E2C9EA18B4DF7D00D5D823 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2C9E918B4DF7D00D5D823 /* ViewController.m */; };
 		37E2C9EC18B4DF7D00D5D823 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */; };
+		81333BCA1B7B562300662074 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81333BC91B7B562300662074 /* Spotify.framework */; };
 		CE0C640C1A9B61EB00B5F6F6 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C640B1A9B61EB00B5F6F6 /* LoginController.m */; };
 		CE4A60C91A9CBF9600DDA394 /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4A60C81A9CBF9600DDA394 /* backdrop.png */; };
 		DD3274FE1A26C53F00957EF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3274FD1A26C53F00957EF7 /* CoreData.framework */; };
@@ -26,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		377A23B818BDFE2300EC584A /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = ../../Spotify.framework; sourceTree = "<group>"; };
 		378297E418BCDF4000EFF728 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		378297E618BCDF4700EFF728 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		37E2C9CD18B4DF7D00D5D823 /* Simple Track Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Track Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +42,7 @@
 		37E2C9E818B4DF7D00D5D823 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		37E2C9E918B4DF7D00D5D823 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81333BC91B7B562300662074 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spotify.framework; path = "../../../../Downloads/ios-sdk-beta-10 5/Spotify.framework"; sourceTree = "<group>"; };
 		CE0C640A1A9B61EB00B5F6F6 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		CE0C640B1A9B61EB00B5F6F6 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		CE4A60C81A9CBF9600DDA394 /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 				DD3274FE1A26C53F00957EF7 /* CoreData.framework in Frameworks */,
 				DD76375C1A2039CF00AE0BDC /* libsqlite3.dylib in Frameworks */,
 				378297E718BCDF4700EFF728 /* AVFoundation.framework in Frameworks */,
-				377A23B918BDFE2300EC584A /* Spotify.framework in Frameworks */,
+				81333BCA1B7B562300662074 /* Spotify.framework in Frameworks */,
 				378297E518BCDF4000EFF728 /* Security.framework in Frameworks */,
 				37E2C9D318B4DF7D00D5D823 /* CoreGraphics.framework in Frameworks */,
 				37E2C9D518B4DF7D00D5D823 /* UIKit.framework in Frameworks */,
@@ -90,9 +90,9 @@
 		37E2C9CF18B4DF7D00D5D823 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81333BC91B7B562300662074 /* Spotify.framework */,
 				DD3274FD1A26C53F00957EF7 /* CoreData.framework */,
 				DD76375A1A2007F100AE0BDC /* libsqlite3.dylib */,
-				377A23B818BDFE2300EC584A /* Spotify.framework */,
 				378297E618BCDF4700EFF728 /* AVFoundation.framework */,
 				378297E418BCDF4000EFF728 /* Security.framework */,
 				37E2C9D018B4DF7D00D5D823 /* Foundation.framework */,
@@ -305,7 +305,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = ../..;
+				FRAMEWORK_SEARCH_PATHS = (
+					../..,
+					"/Users/eyvind/Downloads/ios-sdk-beta-10",
+					5,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
@@ -322,7 +326,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = ../..;
+				FRAMEWORK_SEARCH_PATHS = (
+					../..,
+					"/Users/eyvind/Downloads/ios-sdk-beta-10",
+					5,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Track Playback/Simple Track Playback-Prefix.pch";
 				INFOPLIST_FILE = "Simple Track Playback/Simple Track Playback-Info.plist";
