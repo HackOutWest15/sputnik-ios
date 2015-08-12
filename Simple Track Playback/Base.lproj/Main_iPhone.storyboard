@@ -17,13 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="350" height="700"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backdrop.png" translatesAutoresizingMaskIntoConstraints="NO" id="DTe-rf-yCm">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginBack.png" translatesAutoresizingMaskIntoConstraints="NO" id="DTe-rf-yCm">
                                 <rect key="frame" x="0.0" y="0.0" width="350" height="700"/>
                             </imageView>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Ml-OT-tXY" customClass="SPTConnectButton">
-                                <rect key="frame" x="48" y="327" width="266" height="46"/>
-                                <color key="backgroundColor" red="0.62807674229999999" green="1" blue="0.59483990919999996" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="0.62807674229999999" green="1" blue="0.59483990919999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ml-OT-tXY" customClass="SPTConnectButton">
+                                <rect key="frame" x="42" y="614" width="266" height="46"/>
+                                <color key="backgroundColor" red="0.62745098039215685" green="1" blue="0.59607843137254901" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.62807674229999999" green="1" blue="0.59483990919999996" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="266" id="1a1-Sp-vit"/>
                                     <constraint firstAttribute="height" constant="46" id="kCI-XC-J0W"/>
@@ -37,7 +37,8 @@
                         <constraints>
                             <constraint firstItem="DTe-rf-yCm" firstAttribute="height" secondItem="sop-bH-znm" secondAttribute="height" id="5c0-C4-t9m"/>
                             <constraint firstAttribute="centerY" secondItem="DTe-rf-yCm" secondAttribute="centerY" id="8kv-HY-8B3"/>
-                            <constraint firstItem="0Ml-OT-tXY" firstAttribute="centerX" secondItem="DTe-rf-yCm" secondAttribute="centerX" id="H9O-zE-0hM"/>
+                            <constraint firstItem="0Ml-OT-tXY" firstAttribute="top" secondItem="DTe-rf-yCm" secondAttribute="bottom" constant="-86" id="Gx7-U7-lfX"/>
+                            <constraint firstAttribute="centerX" secondItem="0Ml-OT-tXY" secondAttribute="centerX" id="LAF-Nc-axu"/>
                             <constraint firstItem="DTe-rf-yCm" firstAttribute="width" secondItem="sop-bH-znm" secondAttribute="width" id="XRk-tn-6jJ"/>
                             <constraint firstAttribute="centerX" secondItem="DTe-rf-yCm" secondAttribute="centerX" id="Zu4-pb-VBo"/>
                         </constraints>
@@ -46,6 +47,7 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="350" height="700"/>
                     <connections>
+                        <outlet property="loginButton" destination="0Ml-OT-tXY" id="Hs5-Df-gJL"/>
                         <segue destination="vXZ-lx-hvc" kind="push" identifier="ShowPlayer" id="zaK-VN-vzp"/>
                     </connections>
                 </viewController>
@@ -86,18 +88,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Track Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geZ-ir-3zL">
-                                <rect key="frame" x="20" y="8" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" red="0.97814254373944198" green="0.98725848998845667" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Track Artist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMc-zU-LZV">
-                                <rect key="frame" x="20" y="37" width="310" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.97814254373944198" green="0.98725848998845667" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQS-IA-EZ2">
                                 <rect key="frame" x="133" y="211" width="77" height="30"/>
                                 <state key="normal" title="Play/Pause">
@@ -137,18 +127,16 @@
                                 <rect key="frame" x="178" y="249" width="140" height="140"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.09728467500887078" green="0.091569580050131452" blue="0.097326144366197131" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="5lq-oX-nUS"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="artistLabel" destination="eMc-zU-LZV" id="k4U-5A-jOh"/>
                         <outlet property="coverViewBL" destination="Dv9-u5-aKh" id="l4m-1w-Zxd"/>
                         <outlet property="coverViewBR" destination="4fe-nA-L4b" id="WRC-VS-JgS"/>
                         <outlet property="coverViewTL" destination="9f5-hL-PF7" id="sEp-iJ-oxx"/>
                         <outlet property="coverViewTR" destination="ZQZ-oC-eLm" id="Fsg-zZ-G7h"/>
                         <outlet property="spinner" destination="tWH-lO-Xp4" id="4fA-Wu-jTu"/>
-                        <outlet property="titleLabel" destination="geZ-ir-3zL" id="Hy4-EM-Adf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -157,7 +145,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="backdrop.png" width="562" height="1208"/>
+        <image name="loginBack.png" width="640" height="1136"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

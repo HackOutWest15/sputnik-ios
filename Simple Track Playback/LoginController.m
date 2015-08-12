@@ -19,6 +19,7 @@
 #import "Config.h"
 
 @interface LoginController () <SPTAuthViewDelegate>
+@property (weak, nonatomic) IBOutlet SPTConnectButton *loginButton;
 
 @property (atomic, readwrite) SPTAuthViewController *authViewController;
 @property (atomic, readwrite) BOOL firstLoad;
@@ -32,6 +33,9 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(sessionUpdatedNotification:) name:@"sessionUpdated" object:nil];
     self.statusLabel.text = @"";
     self.firstLoad = YES;
+    self.loginButton.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.loginButton.layer.borderWidth = 1.0f;
+   self.loginButton.layer.cornerRadius = 24.0;
 }
 
 - (BOOL)prefersStatusBarHidden {
