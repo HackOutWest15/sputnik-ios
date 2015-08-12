@@ -57,6 +57,7 @@
     self.coverViewTL.contentMode = UIViewContentModeScaleAspectFit;
     self.coverViewBL.contentMode = UIViewContentModeScaleAspectFit;
     self.coverViewBR.contentMode = UIViewContentModeScaleAspectFit;
+    self.secondsLeft = 9;
     
     UITapGestureRecognizer *tapRecognizer1 = [[UITapGestureRecognizer alloc]
                                              initWithTarget:self action:@selector(fastForward:)];
@@ -178,12 +179,12 @@
         [self.view addSubview:flashView];
     
     
-    [flashView setAlpha:1.0f];
+    [flashView setAlpha:0.7f];
     
     
     //flash animation code
     [UIView beginAnimations:@"flash screen" context:nil];
-    [UIView setAnimationDuration:0.3f];
+    [UIView setAnimationDuration:0.7f];
     [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
     
     [flashView setAlpha:0.0f];
@@ -342,49 +343,49 @@
 			return;
 		}
 
-        [self updateUI];
+        //[self updateUI];
         
     [SPTPlaylistSnapshot requestStarredListForUserWithSession:auth.session callback:^(NSError *error, SPTPlaylistSnapshot *object) {
             //NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
             //NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
         
-        NSUInteger randomIndex0 = arc4random() % [object.firstTrackPage.items count];
-        
-        NSUInteger randomIndex1 = arc4random() % [object.firstTrackPage.items count];
-        
+//        NSUInteger randomIndex0 = arc4random() % [object.firstTrackPage.items count];
+//        
+//        NSUInteger randomIndex1 = arc4random() % [object.firstTrackPage.items count];
+//        
         NSUInteger randomIndex2 = arc4random() % [object.firstTrackPage.items count];
-        
-        NSUInteger randomIndex3 = arc4random() % [object.firstTrackPage.items count];
-        
-        NSUInteger randomIndex4 = arc4random() % [object.firstTrackPage.items count];
-        
-        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex1] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
-            
-            NSURL *imageURL = theTrack.album.largestCover.imageURL;
-            [self setImage: imageURL withCoverPic: self.coverViewTL];
-            
-        }];
-        
-        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex2] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
-            
-            NSURL *imageURL = theTrack.album.largestCover.imageURL;
-            [self setImage: imageURL withCoverPic: self.coverViewTR];
-            
-        }];
-        
-        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex3] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
-            
-            NSURL *imageURL = theTrack.album.largestCover.imageURL;
-            [self setImage: imageURL withCoverPic: self.coverViewBR];
-            
-        }];
-        
-        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex4] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
-            
-            NSURL *imageURL = theTrack.album.largestCover.imageURL;
-            [self setImage: imageURL withCoverPic: self.coverViewBL];
-            
-        }];
+//        
+//        NSUInteger randomIndex3 = arc4random() % [object.firstTrackPage.items count];
+//        
+//        NSUInteger randomIndex4 = arc4random() % [object.firstTrackPage.items count];
+//        
+//        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex1] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
+//            
+//            NSURL *imageURL = theTrack.album.largestCover.imageURL;
+//            [self setImage: imageURL withCoverPic: self.coverViewTL];
+//            
+//        }];
+//        
+//        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex2] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
+//            
+//            NSURL *imageURL = theTrack.album.largestCover.imageURL;
+//            [self setImage: imageURL withCoverPic: self.coverViewTR];
+//            
+//        }];
+//        
+//        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex3] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
+//            
+//            NSURL *imageURL = theTrack.album.largestCover.imageURL;
+//            [self setImage: imageURL withCoverPic: self.coverViewBR];
+//            
+//        }];
+//        
+//        [SPTTrack trackWithURI:[object.firstTrackPage.items[randomIndex4] playableUri] session:auth.session callback:^(NSError *error, SPTTrack *theTrack) {
+//            
+//            NSURL *imageURL = theTrack.album.largestCover.imageURL;
+//            [self setImage: imageURL withCoverPic: self.coverViewBL];
+//            
+//        }];
         
         [self.player playURIs:object.firstTrackPage.items fromIndex:randomIndex2 callback:nil];
         }];
