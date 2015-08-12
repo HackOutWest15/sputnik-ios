@@ -20,6 +20,8 @@
 		37E2C9EC18B4DF7D00D5D823 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */; };
 		773D223D1B7B572B00C14597 /* Spotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D223C1B7B572B00C14597 /* Spotify.framework */; };
 		773D223F1B7B5A0D00C14597 /* loginBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D223E1B7B5A0D00C14597 /* loginBack.png */; };
+		773D22411B7B662800C14597 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D22401B7B662800C14597 /* play.png */; };
+		773D22431B7B66DE00C14597 /* storplay.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D22421B7B66DE00C14597 /* storplay.png */; };
 		CE0C640C1A9B61EB00B5F6F6 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0C640B1A9B61EB00B5F6F6 /* LoginController.m */; };
 		CE4A60C91A9CBF9600DDA394 /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4A60C81A9CBF9600DDA394 /* backdrop.png */; };
 		DD3274FE1A26C53F00957EF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD3274FD1A26C53F00957EF7 /* CoreData.framework */; };
@@ -45,6 +47,8 @@
 		37E2C9EB18B4DF7D00D5D823 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		773D223C1B7B572B00C14597 /* Spotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Spotify.framework; sourceTree = "<group>"; };
 		773D223E1B7B5A0D00C14597 /* loginBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBack.png; sourceTree = "<group>"; };
+		773D22401B7B662800C14597 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		773D22421B7B66DE00C14597 /* storplay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storplay.png; sourceTree = "<group>"; };
 		CE0C640A1A9B61EB00B5F6F6 /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		CE0C640B1A9B61EB00B5F6F6 /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		CE4A60C81A9CBF9600DDA394 /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				CE4A60C81A9CBF9600DDA394 /* backdrop.png */,
+				773D22421B7B66DE00C14597 /* storplay.png */,
+				773D22401B7B662800C14597 /* play.png */,
 				773D223E1B7B5A0D00C14597 /* loginBack.png */,
 				37E2C9D818B4DF7D00D5D823 /* Simple Track Playback-Info.plist */,
 				37E2C9D918B4DF7D00D5D823 /* InfoPlist.strings */,
@@ -186,11 +192,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773D22431B7B66DE00C14597 /* storplay.png in Resources */,
 				37E2C9EC18B4DF7D00D5D823 /* Images.xcassets in Resources */,
 				CE4A60C91A9CBF9600DDA394 /* backdrop.png in Resources */,
 				37E2C9E418B4DF7D00D5D823 /* Main_iPhone.storyboard in Resources */,
 				773D223F1B7B5A0D00C14597 /* loginBack.png in Resources */,
 				37E2C9DB18B4DF7D00D5D823 /* InfoPlist.strings in Resources */,
+				773D22411B7B662800C14597 /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
