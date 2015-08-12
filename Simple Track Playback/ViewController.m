@@ -45,7 +45,6 @@
     if (self.secondsLeft<=0) {
         NSLog(@"wtf");
         [self fastForward:(nil)];
-        self.secondsLeft = 9;
     }
 }
 
@@ -117,6 +116,7 @@
     if(calledBy == self.realOne){
         NSLog(@"CORRECT");
     }
+    self.secondsLeft = 9;
     [self.player skipNext:nil];
 }
 
@@ -210,13 +210,19 @@
                           //NSLog(@"Starred :%@ tracks:%d",object.name, object.trackCount);
                           //NSLog(@"tracks on page 1 = %@", [object.firstTrackPage tracksForPlayback]);
                           
-                          NSUInteger randomIndex1 = arc4random() % [object.firstTrackPage.items count];
+                          int numberOfItems = [object.firstTrackPage.items count];
                           
-                          NSUInteger randomIndex2 = arc4random() % [object.firstTrackPage.items count];
+                          if (numberOfItems == 0){
+                              numberOfItems = 1;
+                          }
                           
-                          NSUInteger randomIndex3 = arc4random() % [object.firstTrackPage.items count];
+                          NSUInteger randomIndex1 = arc4random() % numberOfItems;
                           
-                          NSUInteger randomIndex4 = arc4random() % [object.firstTrackPage.items count];
+                          NSUInteger randomIndex2 = arc4random() % numberOfItems;
+                          
+                          NSUInteger randomIndex3 = arc4random() % numberOfItems;
+                          
+                          NSUInteger randomIndex4 = arc4random() % numberOfItems;
                           
                           self.realOne = arc4random_uniform(3);
                           
