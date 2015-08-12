@@ -44,6 +44,7 @@
     self.timerLabel.text =[NSString stringWithFormat:@"%01d", self.secondsLeft];
     if (self.secondsLeft<=0) {
         NSLog(@"wtf");
+        self.secondsLeft = 9;
         [self fastForward:(nil)];
     }
 }
@@ -121,7 +122,6 @@
     }
 
     
-    self.secondsLeft = 9;
     [self.player skipNext:nil];
 }
 
@@ -332,7 +332,7 @@
     if (self.player == nil) {
         self.player = [[SPTAudioStreamingController alloc] initWithClientId:auth.clientID];
         self.player.playbackDelegate = self;
-        self.player.diskCache = [[SPTDiskCache alloc] initWithCapacity:1024 * 1024 * 64];
+        self.player.diskCache = [[SPTDiskCache alloc] initWithCapacity:1024 * 1024 * 1024];
     }
 
     [self.player loginWithSession:auth.session callback:^(NSError *error) {
